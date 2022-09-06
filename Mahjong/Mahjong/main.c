@@ -686,7 +686,7 @@ int main(){
     scanf("%s",s);
     int k=0;
     while(s[k]!='\0'){
-        if(isnumber(s[k])){
+        if(isdigit(s[k])){
             int num = s[k]-'0';
             k++;
             hand[h++]=num+10*(s[k]-'a');
