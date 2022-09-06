@@ -682,7 +682,7 @@ int main(){
     int h=0,kr=0,sh=0,gn=0,furu=0,fu=0,ankr=0;
     char s[48];
     
-    printf("請輸入手牌");
+    printf("請輸入手牌:\n");
     scanf("%s",s);
     int k=0;
     while(s[k]!='\0'){
@@ -809,7 +809,7 @@ int main(){
             point=dian*2;
             if(point%100!=0)
                 point=100*(point/100)+100;
-            printf("%dall %s\n",point,man_[man]);
+            printf("%d ALL %s\n",point,man_[man]);
         }
         else{
             point=dian*2;
