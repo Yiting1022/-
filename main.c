@@ -649,19 +649,19 @@ int main(){
     
     printf("門風 東:0 南:1 西:2 北:3\n");
     scanf("%d",&input);
-    yipai[0]=input+251;
+    yipai[1]=input+251;
     if(input==0)
         chin=1;
     
     printf("場風 東:0 南:1 西:2 北:3\n");
     scanf("%d",&input);
-    yipai[1]=input+251;
+    yipai[0]=input+251;
     
     printf("榮和:0 自摸:1\n");
     scanf("%d",&input);
     tsumo=input;
  
-    printf("立直/雙立直/一發/海底摸月/河底撈魚/搶槓/嶺上開花 y:1/n:0\n");
+    printf("立直: 雙立直: 一發: 海底摸月: 河底撈魚: 搶槓: 嶺上開花: y:1/n:0\n");
     for(int i=0; i<7; i++){
         scanf("%d",&input);
         others_[i]=input;
